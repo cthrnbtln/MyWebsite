@@ -9,7 +9,7 @@ function Skills() {
         <li>React</li>
         <li>CSS</li>
         <li>Node.js</li>
-        <li>MongoDB</li>
+        <li>MongoDBcahahah</li>
       </ul>
     </div>
   );
