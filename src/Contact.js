@@ -8,9 +8,9 @@ function Contact() {
   const navigate = useNavigate();
 
   const formStyle = {
-    maxWidth: '600px',
+    maxWidth: '90%', // Use percentage for mobile
     margin: '20px auto',
-    padding: '20px',
+    padding: '10%',
     borderRadius: '10px',
     backgroundColor: '#f2f2f2',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
@@ -33,7 +33,7 @@ function Contact() {
     <div style={{ textAlign: 'center' }}>
       <h1>Contact Me</h1>
       <form onSubmit={handleSubmit} style={formStyle}>
-        <div className="form-group">
+        <div>
           <label>Name:</label>
           <input
             type="text"
@@ -43,7 +43,7 @@ function Contact() {
             style={inputStyle}
           />
         </div>
-        <div className="form-group">
+        <div>
           <label>Email:</label>
           <input
             type="email"
@@ -53,7 +53,7 @@ function Contact() {
             style={inputStyle}
           />
         </div>
-        <div className="form-group">
+        <div>
           <label>Message:</label>
           <textarea
             value={message}

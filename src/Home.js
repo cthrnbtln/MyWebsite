@@ -8,15 +8,16 @@ function Home() {
     justifyContent: 'center',
     height: '100vh',
     backgroundColor: '#eaf4fc',
+    padding: '10%', // Added padding for mobile
   };
 
   const headingStyle = {
-    fontSize: '3rem',
+    fontSize: '2.5rem', // Adjusted for mobile
     color: '#4A90E2',
   };
 
   const textStyle = {
-    fontSize: '1.5rem',
+    fontSize: '1.2rem', // Adjusted for mobile
     marginTop: '20px',
     color: '#333',
   };

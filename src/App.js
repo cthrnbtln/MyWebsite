@@ -10,23 +10,13 @@ function App() {
   return (
     <Router>
       <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <div className="collapse navbar-collapse">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item">
-                <Link className="nav-link" to="/">Home</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/about">About</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/skills">Skills</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/contact">Contact</Link>
-              </li>
-            </ul>
-          </div>
+        <nav style={{ padding: '10px', backgroundColor: '#f8f9fa' }}>
+          <ul style={{ display: 'flex', justifyContent: 'space-around', padding: '0' }}>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/skills">Skills</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+          </ul>
         </nav>
 
         <Routes>
